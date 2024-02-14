@@ -1,0 +1,11 @@
+email,otp,client
+john.doe@example.com,123456,Client1
+jane.doe@example.com,789012,Client2
+invalid.email,345678,Client3
+alex.smith@example.com,901234,Client4
+linda.brown@example.com,,Client5
+,,Client6
+mike.jones@example.com,567890,
+invalid.email,234567,Client8
+paul.wilson@example.com,890123,Client9
+susan.davis@example.com,012345,Client10
