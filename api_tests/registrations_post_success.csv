@@ -1,0 +1,11 @@
+id,credentialUrl,startDate,endDate
+a1b2c3d4e5,www.example.com/credential/1,2021-01-01,2021-12-31
+f6g7h8i9j0,www.example.com/credential/2,2021-02-01,2022-01-31
+k1l2m3n4o5,www.example.com/credential/3,2021-03-01,2022-02-28
+p6q7r8s9t0,www.example.com/credential/4,2021-04-01,2022-03-31
+u1v2w3x4y5,www.example.com/credential/5,2021-05-01,2022-04-30
+z6a7b8c9d0,www.example.com/credential/6,2021-06-01,2022-05-31
+e1f2g3h4i5,www.example.com/credential/7,2021-07-01,2022-06-30
+j6k7l8m9n0,www.example.com/credential/8,2021-08-01,2022-07-31
+o1p2q3r4s5,www.example.com/credential/9,2021-09-01,2022-08-31
+t6u7v8w9x0,www.example.com/credential/10,2021-10-01,2022-09-30
