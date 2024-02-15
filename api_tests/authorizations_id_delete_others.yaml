@@ -31,7 +31,7 @@ scenarios:
           expect:
             - statusCode: 401
           comment: "Expecting 401 Unauthorized due to invalid authentication token."
-      - think: 1
+      #- think: 1
 
       # Missing authentication token
       - post:
@@ -40,7 +40,7 @@ scenarios:
           expect:
             - statusCode: 401
           comment: "Expecting 401 Unauthorized because the authentication token is missing."
-      - think: 1
+      #- think: 1
 
       # Invalid UUID in the URL
       - delete:
@@ -50,7 +50,7 @@ scenarios:
           expect:
             - statusCode: 400
           comment: "Expecting 400 Bad Request due to invalid UUID format in the URL."
-      - think: 1
+      #- think: 1
 
       # Attempt to delete non-existent authorization
       - delete:
@@ -60,7 +60,7 @@ scenarios:
           expect:
             - statusCode: 404
           comment: "Expecting 404 Not Found when trying to delete a non-existent authorization record."
-      - think: 1
+      #- think: 1
 
       # Invalid URL case
       - get:
@@ -70,4 +70,4 @@ scenarios:
           expect:
             - statusCode: 404
           comment: "Expecting 404 Not Found when requesting an invalid URL."
-      - think: 1
+      #- think: 1
