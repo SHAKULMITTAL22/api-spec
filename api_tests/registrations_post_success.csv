@@ -1,0 +1,11 @@
+id,reference,startDate,endDate,credentialUrl
+f3d4e9e2-815d-44b3-9096-1861a2edf24d,REF1234,2022-01-01,2022-02-01,http://example.com/credential1
+6b2dd78f-6b25-4b2a-8832-7e9f0f4a6631,REF5678,2022-01-02,2022-02-02,http://example.com/credential2
+4a6f5d3f-2b4c-4a5b-8752-1e8f0f2a6632,REF9101,2022-01-03,2022-02-03,http://example.com/credential3
+c5d6e7f8-3c5d-4c6e-9752-2e9f0f3a6633,REF1121,2022-01-04,2022-02-04,http://example.com/credential4
+9d8e7f6a-4d5e-4d6f-8752-3e9f0f4a6634,REF3141,2022-01-05,2022-02-05,http://example.com/credential5
+f6a7b8c9-5e6f-5e7f-9752-4e9f0f5a6635,REF5161,2022-01-06,2022-02-06,http://example.com/credential6
+b7c8d9e0-6f7g-6f8g-9752-5e9f0f6a6636,REF7181,2022-01-07,2022-02-07,http://example.com/credential7
+c8d9e0f1-7g8h-7g9h-9752-6e9f0f7a6637,REF9201,2022-01-08,2022-02-08,http://example.com/credential8
+d9e0f1g2-8h9i-8h0i-9752-7e9f0f8a6638,REF1221,2022-01-09,2022-02-09,http://example.com/credential9
+e0f1g2h3-9i0j-9i1j-9752-8e9f0f9a6639,REF3241,2022-01-10,2022-02-10,http://example.com/credential10
