@@ -1,0 +1,11 @@
+id,reference,startDate,endDate,credentialUrl
+f3d4e9e2-815d-44fe-8ed8-7a62950a4961,AB123,2021-01-10,2021-05-10,http://example.com/credential1
+3ec6e2fd-8fe2-4f24-8e5a-2a65f8b237a2,CD456,2021-02-15,2021-06-15,http://example.com/credential2
+7d8f3e2a-5fbc-4f34-9b6a-2b7c9a237e3d,EF789,2021-03-20,2021-07-20,http://example.com/credential3
+2a6f5e8c-9b7c-4f3e-8d2a-2b8c9e237f4e,GH012,2021-04-25,2021-08-25,http://example.com/credential4
+4e9f7c2b-8d3a-4f5e-9b2a-2c9f8e237g5f,IJ345,2021-05-30,2021-09-30,http://example.com/credential5
+5fa8e9c2b-9d3b-4g5f-8b2a-2d9g8f237h6g,KL678,2021-06-05,2021-10-05,http://example.com/credential6
+6gb9f8d2c-8e3c-4g6f-9b2a-2e9h9g237i7h,MN901,2021-07-10,2021-11-10,http://example.com/credential7
+7hc9g8e2d-9f3d-4h7g-8c2a-2f9i9h237j8i,OP234,2021-08-15,2021-12-15,http://example.com/credential8
+8id9h8f2e-8g3e-4i8h-9c2a-2g9j9i237k9j,QR567,2021-09-20,2022-01-20,http://example.com/credential9
+9je9i8g2f-9h3f-4j9i-8d2a-2h9k9j237l0k,ST890,2021-10-25,2022-02-25,http://example.com/credential10
