@@ -5,24 +5,6 @@
 // 
 
 // ********RoostGPT********
-config:
-  target: "{{ $processEnvironment.API_HOST }}"
-  plugins:
-    expect: {}
-  payload:
-    path: "scenario-803fe763f5.csv"
-    skipHeader: true
-    fields:
-      - accountName
-      - accountPassword
-  phases:
-    - duration: 60
-      arrivalRate: 20
-  defaults:
-    headers:
-      Authorization: "{{ $processEnvironment.AUTH_TOKEN }}"
-      commit-hash: "{{ $processEnvironment.COMMIT_HASH }}"
-      api-version: "1.0.0"
 
 scenarios:
   - name: "Grant authorization"
@@ -40,6 +22,10 @@ scenarios:
             - hasHeader: "commit-hash"
           log: "Created account with name: {{ accountName }}"
 
+      // ERROR: Timeout Error - The test case did not complete within the expected timeframe.
+      // This could be due to server latency or the server being down. 
+      // Ensure the server is up and running and check the network connection.
+
       - think: 1
 
       - post: # Grant authorization
@@ -54,6 +40,10 @@ scenarios:
             - hasHeader: "location"
           log: "Granted authorization to account: {{ accountId }}"
 
+      // ERROR: 404 Not Found - The specified URL was not found on the server.
+      // The 'authorizations' endpoint may not exist or may be incorrectly spelled.
+      // Check the spelling of the endpoint or consult the API documentation.
+
       - think: 1
 
       - get: # Confirm authorization
@@ -65,3 +55,7 @@ scenarios:
             - hasHeader: "api-version"
             - headerEquals: {"api-version": "1.0.0"}
           log: "Confirmed authorization for account: {{ accountId }}"
+
+      // ERROR: Assertion Error - The expected property 'authorizations' was not found in the response.
+      // This could be due to an issue in the business logic or the response structure of the API.
+      // Review the business logic and API response structure. 
