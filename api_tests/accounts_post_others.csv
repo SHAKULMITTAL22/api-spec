@@ -1,0 +1,11 @@
+email^|^invalidEmail
+john.doe@example.com^|^valid@example.com
+jane_smith+123@example.co.uk^|^
+mark/o'brien@test.org^|^invalid.email@
+^|^not_an_email_address
+sarah.johnson@company.io^|^sarah.johnson@invalid
+mike-brown@sub.domain.com^|^mike@brown@two@ats
+lisa.davis123@example.net^|^lisa.davis.example.net
+^|^tom%jones#hotmail,com
+amy@example.com^|^amy@example
+steve.wilson@test.co^|^steve.wilson.test.co
