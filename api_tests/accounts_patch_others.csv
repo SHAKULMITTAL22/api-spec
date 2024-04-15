@@ -1,0 +1,11 @@
+email
+john.doe@example.com
+jane_doe@example.co.uk
+invalid.email@
+jsmith@company.com
+@missingusername.com
+bob+johnson@example.com
+sally.jones@example
+mark@toooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooolong.com
+^|^sarah@example.com
+mike@example^|^.com
