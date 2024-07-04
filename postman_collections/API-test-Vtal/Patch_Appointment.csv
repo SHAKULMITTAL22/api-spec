@@ -1,0 +1,15 @@
+```csv
+appointmentId,id,reason,statusCode,scenario
+"SA-562403","bff13821-73c3-42cc-9327-b05c7df5a67f","Agendamento para Instalação de Fibra",200,"successful operation"
+12345,"invalid-id","invalid-reason",400,"Bad Request"
+67890,"another-invalid-id","another-invalid-reason",401,"Unauthorized"
+13579,"yet-another-invalid-id","yet-another-invalid-reason",403,"Forbidden - Scope Not Permitted"
+24680,"more-invalid-id","more-invalid-reason",404,"Not Found"
+98765,"still-invalid-id","still-invalid-reason",406,"Not Acceptable"
+54321,"invalid-id-again","invalid-reason-again",412,"Not Acceptable"
+19283,"invalid-slot-id","invalid-slot-reason",423,"Locked"
+37465,"invalid-quota-id","invalid-quota-reason",429,"Too Many Requests - Exceeded Quota"
+95736,"server-error-id","server-error-reason",500,"Internal Server Error"
+84726,"service-unavailable-id","service-unavailable-reason",503,"Service Unavailable"
+27384,"gateway-timeout-id","gateway-timeout-reason",504,"Gateway Timeout"
+```
