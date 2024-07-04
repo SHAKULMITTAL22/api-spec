@@ -1,0 +1,11 @@
+appointmentId^|^appointmentReason
+SA-562403^|^Cancelamento Checkout
+SA-562404^|^Reagendamento
+SA-562405^|^Consulta Concluída
+SA-562406^|^Paciente Não Compareceu
+SA-562407^|^Médico Ausente
+SA-562408^|^Horário Conflitante
+SA-562409^|^Paciente Solicitou Cancelamento
+SA-562410^|^Erro de Agendamento
+SA-562411^|^Consulta Remarcada
+SA-562412^|^Problema Técnico
