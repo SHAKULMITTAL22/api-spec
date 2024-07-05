@@ -1,0 +1,12 @@
+subscriberId,id,confirmation,statusCode,scenario
+"1","bff13821-73c3-42cc-9327-b05c7df5a67f",true,200,"successful operation"
+"2","bff13821-73c3-42cc-9327-b05c7df5a67f",false,400,"Bad Request"
+"3","bff13821-73c3-42cc-9327-b05c7df5a67f",true,401,"Unauthorized"
+"4","bff13821-73c3-42cc-9327-b05c7df5a67f",false,403,"Forbidden - Scope Not Permitted"
+"5","bff13821-73c3-42cc-9327-b05c7df5a67f",true,404,"Not Found"
+"6","bff13821-73c3-42cc-9327-b05c7df5a67f",false,406,"Not Acceptable"
+"7","bff13821-73c3-42cc-9327-b05c7df5a67f",true,412,"Precondition Failed"
+"8","bff13821-73c3-42cc-9327-b05c7df5a67f",false,429,"Too Many Requests - Exceeded Quota"
+"9","bff13821-73c3-42cc-9327-b05c7df5a67f",true,500,"Internal Server Error"
+"10","bff13821-73c3-42cc-9327-b05c7df5a67f",false,503,"Service Unavailable"
+"11","bff13821-73c3-42cc-9327-b05c7df5a67f",true,504,"Gateway Timeout"
