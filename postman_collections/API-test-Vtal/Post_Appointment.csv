@@ -1,0 +1,13 @@
+id,reason,statusCode,scenario
+"bff13821-73c3-42cc-9327-b05c7df5a67f","Cliente Diamond",201,"successful operation"
+"bff13821-73c3-42cc-9327-b05c7df5a67f","Bad Request",400,"Bad Request"
+"bff13821-73c3-42cc-9327-b05c7df5a67f","Unauthorized",401,"Unauthorized"
+"bff13821-73c3-42cc-9327-b05c7df5a67f","Forbidden - Scope Not Permitted",403,"Forbidden - Scope Not Permitted"
+"bff13821-73c3-42cc-9327-b05c7df5a67f","Identificador do Slot n\\u00e3o encontrado ou expirado",404,"Not Found"
+"bff13821-73c3-42cc-9327-b05c7df5a67f","Not Acceptable",406,"Not Acceptable"
+"bff13821-73c3-42cc-9327-b05c7df5a67f","Precondition Failed",412,"Not Acceptable"
+"bff13821-73c3-42cc-9327-b05c7df5a67f","Agendamento n\\u00e3o pode ser alterado",423,"Locked"
+"bff13821-73c3-42cc-9327-b05c7df5a67f","Too Many Requests - Exceeded Quota",429,"Too Many Requests - Exceeded Quota"
+"bff13821-73c3-42cc-9327-b05c7df5a67f","Internal Server Error",500,"Internal Server Error"
+"bff13821-73c3-42cc-9327-b05c7df5a67f","Service Unavailable",503,"Service Unavailable"
+"bff13821-73c3-42cc-9327-b05c7df5a67f","Gateway Timeout",504,"Gateway Timeout"
