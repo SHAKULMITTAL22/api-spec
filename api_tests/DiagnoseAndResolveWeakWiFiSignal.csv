@@ -1,0 +1,11 @@
+url^|^methodType^|^responseCode^|^responseType^|^responseMessage^|^responseCode^|^requestBodyType^|^requestBodyAction^|^requestBodyId^|^requestBodyAdminStatus^|^requestBodyStartDate^|^requestBodyEndDate^|^requestBodyState
+/configuration^|^post^|^200^|^S^|^Configuration successful^|^CFG200^|^HGW_WIFI_ENABLE^|^CONF123^|^1^|^2023-05-15T09:30:00Z^|^2023-05-15T10:30:00Z^|^COMPLETED
+/listener/configurationResultEvent^|^post^|^204^|^S^|^Event received^|^EVT204^|^^^^|^^^^|^^^^|^^^^|^^^^|^^^^
+/serviceTest^|^post^|^200^|^S^|^Service test initiated^|^TST200^|^diagnostic^|^^^^|^^^^|^^^^|^^^^|^^^^
+/configuration^|^post^|^400^|^E^|^Invalid configuration^|^CFG400^|^HGW_WIFI_DISABLE^|^CONF456^|^0^|^2023-05-16T14:45:00Z^|^2023-05-16T15:45:00Z^|^FAILED
+/listener/serviceTestResultEvent^|^post^|^204^|^S^|^Test result received^|^RES204^|^^^^|^^^^|^^^^|^^^^|^^^^|^^^^
+/configuration^|^post^|^500^|^E^|^Internal server error^|^CFG500^|^HGW_WIFI_SET_PASSWD^|^CONF789^|^1^|^2023-05-17T11:15:00Z^|^2023-05-17T12:15:00Z^|^ERROR
+/serviceTest^|^post^|^401^|^E^|^Unauthorized access^|^TST401^|^diagnostic^|^^^^|^^^^|^^^^|^^^^|^^^^
+/listener/configurationResultEvent^|^post^|^400^|^E^|^Bad request^|^EVT400^|^^^^|^^^^|^^^^|^^^^|^^^^|^^^^
+/configuration^|^post^|^200^|^S^|^Configuration updated^|^CFG200^|^HGW_WIFI_CONFIGURATION^|^CONF101^|^1^|^2023-05-18T16:00:00Z^|^2023-05-18T17:00:00Z^|^COMPLETED
+/listener/serviceTestResultEvent^|^post^|^503^|^E^|^Service unavailable^|^RES503^|^^^^|^^^^|^^^^|^^^^|^^^^|^^^^
