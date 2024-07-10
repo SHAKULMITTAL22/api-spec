@@ -1,0 +1,12 @@
+url^|^urlApiSpecDetails.path^|^urlApiSpecDetails.methodType^|^urlApiSpecDetails.responses.200.control.type^|^urlApiSpecDetails.requestBody.configuration.action.type^|^urlApiSpecDetails.requestBody.configuration.adminStatus^|^urlApiSpecDetails.requestBody.configuration.startDate^|^urlApiSpecDetails.requestBody.configuration.endDate^|^urlApiSpecDetails.requestBody.serviceTest.type^|^urlApiSpecDetails.requestBody.serviceTest.customer.subscriberId^|^urlApiSpecDetails.requestBody.notification.serviceTest.state
+/configuration^|^/configuration^|^post^|^T^|^HGW_WIFI_ENABLE^|^1^|^2023-05-15T10:30:00Z^|^2023-05-15T11:30:00Z^|^^^|^^^|^
+/configuration^|^/configuration^|^post^|^S^|^HGW_WIFI_DISABLE^|^0^|^2023-05-16T14:45:00Z^|^2023-05-16T15:45:00Z^|^^^|^^^|^
+/configuration^|^/configuration^|^post^|^E^|^HGW_WIFI_SET_PASSWD^|^1^|^2023-05-17T09:15:00Z^|^2023-05-17T10:15:00Z^|^^^|^^^|^
+/configuration^|^/configuration^|^post^|^S^|^HGW_WIFI_CONFIGURATION^|^1^|^2023-05-18T16:00:00Z^|^2023-05-18T17:00:00Z^|^^^|^^^|^
+/configuration^|^/configuration^|^post^|^T^|^GPON_ONT_RESET^|^0^|^2023-05-19T11:30:00Z^|^2023-05-19T12:30:00Z^|^^^|^^^|^
+/listener/configurationResultEvent^|^/listener/configurationResultEvent^|^post^|^^^|^^^|^^^|^^^|^^^|^^^|^^^|^
+/serviceTest^|^/serviceTest^|^post^|^S^|^^^|^^^|^^^|^^^|^diagnostic^|^SUB123456^|^
+/serviceTest^|^/serviceTest^|^post^|^T^|^^^|^^^|^^^|^^^|^diagnostic^|^SUB789012^|^
+/serviceTest^|^/serviceTest^|^post^|^E^|^^^|^^^|^^^|^^^|^diagnostic^|^SUB345678^|^
+/listener/serviceTestResultEvent^|^/listener/serviceTestResultEvent^|^post^|^^^|^^^|^^^|^^^|^^^|^^^|^SUB901234^|^IN_PROGRESS
+/listener/serviceTestResultEvent^|^/listener/serviceTestResultEvent^|^post^|^^^|^^^|^^^|^^^|^^^|^^^|^SUB567890^|^FINISHED
