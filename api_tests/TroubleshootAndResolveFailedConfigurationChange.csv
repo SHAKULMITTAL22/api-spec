@@ -1,0 +1,11 @@
+subscriberID^|^configurationPayload
+1^|^{"configuration":{"action":{"type":"HGW_WIFI_ENABLE"},"id":"id1","adminStatus":"1","startDate":"2023-01-01T00:00:00","endDate":"2023-01-10T00:00:00","state":"active"}}
+2^|^{"configuration":{"action":{"type":"HGW_WIFI_DISABLE"},"id":"id2","adminStatus":"0","startDate":"2023-01-11T00:00:00","endDate":"2023-01-20T00:00:00","state":"inactive"}}
+3^|^{"configuration":{"action":{"type":"HGW_WIFI_SET_PASSWD"},"id":"id3","adminStatus":"1","startDate":"2023-01-21T00:00:00","endDate":"2023-01-30T00:00:00","state":"active"}}
+4^|^{"configuration":{"action":{"type":"HGW_WIFI_CONFIGURATION"},"id":"id4","adminStatus":"0","startDate":"2023-02-01T00:00:00","endDate":"2023-02-10T00:00:00","state":"inactive"}}
+5^|^{"configuration":{"action":{"type":"GPON_ONT_RESET"},"id":"id5","adminStatus":"1","startDate":"2023-02-11T00:00:00","endDate":"2023-02-20T00:00:00","state":"active"}}
+6^|^{"configuration":{"action":{"type":"HGW_WIFI_ENABLE"},"id":"id6","adminStatus":"0","startDate":"2023-02-21T00:00:00","endDate":"2023-02-28T00:00:00","state":"inactive"}}
+7^|^{"configuration":{"action":{"type":"HGW_WIFI_DISABLE"},"id":"id7","adminStatus":"1","startDate":"2023-03-01T00:00:00","endDate":"2023-03-10T00:00:00","state":"active"}}
+8^|^{"configuration":{"action":{"type":"HGW_WIFI_SET_PASSWD"},"id":"id8","adminStatus":"0","startDate":"2023-03-11T00:00:00","endDate":"2023-03-20T00:00:00","state":"inactive"}}
+9^|^{"configuration":{"action":{"type":"HGW_WIFI_CONFIGURATION"},"id":"id9","adminStatus":"1","startDate":"2023-03-21T00:00:00","endDate":"2023-03-30T00:00:00","state":"active"}}
+10^|^{"configuration":{"action":{"type":"GPON_ONT_RESET"},"id":"id10","adminStatus":"0","startDate":"2023-04-01T00:00:00","endDate":"2023-04-10T00:00:00","state":"inactive"}}
