@@ -1,0 +1,11 @@
+url^|^methodType^|^responseCode^|^responseType^|^responseMessage^|^responseCode^|^requestBodyType^|^requestBodyAction^|^requestBodyId^|^requestBodyAdminStatus^|^requestBodyStartDate^|^requestBodyEndDate^|^requestBodyState
+/configuration^|^post^|^200^|^S^|^Configuration successful^|^CFG200^|^HGW_WIFI_ENABLE^|^ABCD1234^|^1^|^2023-06-15T10:30:00Z^|^2023-06-15T11:30:00Z^|^COMPLETED
+/configuration^|^post^|^400^|^E^|^Bad request^|^ERR400^|^HGW_WIFI_DISABLE^|^EFGH5678^|^0^|^2023-06-16T14:45:00Z^|^2023-06-16T15:45:00Z^|^FAILED
+/serviceTest^|^post^|^200^|^S^|^Service test initiated^|^TST200^|^diagnostic^|^SUB9876^|^^^|^^^|^^^|^
+/configuration^|^post^|^503^|^E^|^Service unavailable^|^ERR503^|^HGW_WIFI_SET_PASSWD^|^IJKL9012^|^1^|^2023-06-17T09:15:00Z^|^2023-06-17T10:15:00Z^|^PENDING
+/listener/serviceTestResultEvent^|^post^|^204^|^^^|^No Content^|^NTF204^|^diagnostic^|^SUB5432^|^TST001^|^2023-06-18T11:00:00Z^|^2023-06-18T11:30:00Z^|^FINISHED
+/configuration^|^post^|^401^|^E^|^Unauthorized^|^ERR401^|^GPON_ONT_RESET^|^MNOP3456^|^1^|^2023-06-19T16:20:00Z^|^2023-06-19T17:20:00Z^|^REJECTED
+/serviceTest^|^post^|^429^|^E^|^Too many requests^|^ERR429^|^diagnostic^|^SUB2468^|^^^|^^^|^^^|^
+/listener/serviceTestResultEvent^|^post^|^400^|^^^|^Bad Request^|^ERR400^|^diagnostic^|^SUB1357^|^TST002^|^2023-06-20T13:45:00Z^|^2023-06-20T14:15:00Z^|^IN_PROGRESS
+/configuration^|^post^|^500^|^E^|^Internal server error^|^ERR500^|^HGW_WIFI_CONFIGURATION^|^QRST7890^|^0^|^2023-06-21T08:00:00Z^|^2023-06-21T09:00:00Z^|^FAILED
+/listener/serviceTestResultEvent^|^post^|^503^|^^^|^Service Unavailable^|^ERR503^|^diagnostic^|^SUB8642^|^TST003^|^2023-06-22T10:30:00Z^|^2023-06-22T11:00:00Z^|^NOT_FOUND
