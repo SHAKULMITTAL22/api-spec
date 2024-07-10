@@ -1,0 +1,11 @@
+url^|^methodType^|^responseCode^|^responseType^|^responseMessage^|^responseCode^|^requestBodyType^|^requestBodyAction^|^requestBodyId^|^requestBodyAdminStatus^|^requestBodyStartDate^|^requestBodyEndDate^|^requestBodyState^|^customerSubscriberId^|^serviceTestId^|^serviceTestStartDate^|^serviceTestEndDate^|^serviceTestState
+/configuration^|^post^|^200^|^S^|^Configuration successful^|^CFG200^|^HGW_WIFI_ENABLE^|^WIFI_ON^|^CFG001^|^1^|^2023-05-15T10:30:00Z^|^2023-05-15T11:30:00Z^|^COMPLETED^|^^^^
+/serviceTest^|^post^|^400^|^E^|^Bad request^|^ST400^|^diagnostic^|^^^|^^^|^^^|^^^|^^^|^SUB12345678^|^^^|^^^|^^^
+/listener/serviceTestResultEvent^|^post^|^204^|^^^|^^^|^^^|^diagnostic^|^^^|^^^|^^^|^^^|^^^|^SUB98765432^|^TEST001^|^2023-05-15T14:45:00Z^|^2023-05-15T15:00:00Z^|^FINISHED
+/configuration^|^post^|^401^|^E^|^Unauthorized access^|^CFG401^|^HGW_WIFI_DISABLE^|^WIFI_OFF^|^CFG002^|^0^|^2023-05-16T09:15:00Z^|^2023-05-16T10:15:00Z^|^FAILED^|^^^^
+/serviceTest^|^post^|^200^|^S^|^Service test initiated^|^ST200^|^diagnostic^|^^^|^^^|^^^|^^^|^^^|^SUB23456789^|^^^|^^^|^^^
+/listener/serviceTestResultEvent^|^post^|^400^|^^^|^^^|^^^|^diagnostic^|^^^|^^^|^^^|^^^|^^^|^SUB34567890^|^TEST002^|^2023-05-16T11:30:00Z^|^2023-05-16T11:45:00Z^|^IN_PROGRESS
+/configuration^|^post^|^500^|^E^|^Internal server error^|^CFG500^|^HGW_WIFI_SET_PASSWD^|^WIFI_PWD^|^CFG003^|^1^|^2023-05-17T13:00:00Z^|^2023-05-17T14:00:00Z^|^ERROR^|^^^^
+/serviceTest^|^post^|^429^|^E^|^Too many requests^|^ST429^|^diagnostic^|^^^|^^^|^^^|^^^|^^^|^SUB45678901^|^^^|^^^|^^^
+/listener/serviceTestResultEvent^|^post^|^503^|^^^|^^^|^^^|^diagnostic^|^^^|^^^|^^^|^^^|^^^|^SUB56789012^|^TEST003^|^2023-05-17T16:15:00Z^|^2023-05-17T16:30:00Z^|^NOT_FOUND
+/configuration^|^post^|^403^|^E^|^Forbidden^|^CFG403^|^GPON_ONT_RESET^|^ONT_RESET^|^CFG004^|^1^|^2023-05-18T08:45:00Z^|^2023-05-18T09:45:00Z^|^REJECTED^|^^^^

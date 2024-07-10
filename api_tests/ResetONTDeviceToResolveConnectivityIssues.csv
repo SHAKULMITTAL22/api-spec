@@ -1,0 +1,11 @@
+url^|^urlApiSpecDetails.path^|^urlApiSpecDetails.methodType^|^urlApiSpecDetails.responses.200.control.type^|^urlApiSpecDetails.responses.200.control.message^|^urlApiSpecDetails.responses.200.control.code^|^urlApiSpecDetails.requestBody.configuration.action.type^|^urlApiSpecDetails.requestBody.configuration.adminStatus^|^urlApiSpecDetails.requestBody.configuration.startDate^|^urlApiSpecDetails.requestBody.configuration.endDate^|^urlApiSpecDetails.requestBody.configuration.state^|^urlApiSpecDetails.requestBody.serviceTest.type^|^urlApiSpecDetails.requestBody.serviceTest.customer.subscriberId
+/configuration^|^/configuration^|^post^|^S^|^Configuration successful^|^CFG001^|^HGW_WIFI_ENABLE^|^1^|^2023-05-15T10:30:00Z^|^2023-05-15T11:30:00Z^|^COMPLETED^|^^|^
+/configuration^|^/configuration^|^post^|^T^|^Configuration in progress^|^CFG002^|^HGW_WIFI_DISABLE^|^0^|^2023-05-16T14:45:00Z^|^2023-05-16T15:45:00Z^|^IN_PROGRESS^|^^|^
+/configuration^|^/configuration^|^post^|^E^|^Configuration failed^|^CFG003^|^HGW_WIFI_SET_PASSWD^|^1^|^2023-05-17T09:15:00Z^|^2023-05-17T10:15:00Z^|^FAILED^|^^|^
+/listener/configurationResultEvent^|^/listener/configurationResultEvent^|^post^|^^|^^|^^|^^|^^|^^|^^|^^|^^|^
+/serviceTest^|^/serviceTest^|^post^|^S^|^Service test initiated^|^ST001^|^^|^^|^^|^^|^^|^diagnostic^|^SUB123456
+/serviceTest^|^/serviceTest^|^post^|^T^|^Service test in progress^|^ST002^|^^|^^|^^|^^|^^|^diagnostic^|^SUB789012
+/serviceTest^|^/serviceTest^|^post^|^E^|^Service test failed^|^ST003^|^^|^^|^^|^^|^^|^diagnostic^|^SUB345678
+/listener/serviceTestResultEvent^|^/listener/serviceTestResultEvent^|^post^|^^|^^|^^|^^|^^|^^|^^|^^|^^|^
+/configuration^|^/configuration^|^post^|^S^|^Configuration completed^|^CFG004^|^HGW_WIFI_CONFIGURATION^|^1^|^2023-05-18T13:00:00Z^|^2023-05-18T14:00:00Z^|^COMPLETED^|^^|^
+/configuration^|^/configuration^|^post^|^T^|^Configuration pending^|^CFG005^|^GPON_ONT_RESET^|^0^|^2023-05-19T11:30:00Z^|^2023-05-19T12:30:00Z^|^PENDING^|^^|^
