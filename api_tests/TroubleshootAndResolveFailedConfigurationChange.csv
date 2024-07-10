@@ -1,0 +1,11 @@
+subscriberId^|^type^|^parameters^|^serviceTestId
+001^|^diagnostic^|^{"serviceTest":{"type":"diagnostic","customer":{"subscriberId":"001"}}}^|^ST001
+002^|^diagnostic^|^{"serviceTest":{"type":"diagnostic","customer":{"subscriberId":"002"}}}^|^ST002
+003^|^diagnostic^|^{"serviceTest":{"type":"diagnostic","customer":{"subscriberId":"003"}}}^|^ST003
+004^|^diagnostic^|^{"serviceTest":{"type":"diagnostic","customer":{"subscriberId":"004"}}}^|^ST004
+005^|^diagnostic^|^{"serviceTest":{"type":"diagnostic","customer":{"subscriberId":"005"}}}^|^ST005
+006^|^diagnostic^|^{"serviceTest":{"type":"diagnostic","customer":{"subscriberId":"006"}}}^|^ST006
+007^|^diagnostic^|^{"serviceTest":{"type":"diagnostic","customer":{"subscriberId":"007"}}}^|^ST007
+008^|^diagnostic^|^{"serviceTest":{"type":"diagnostic","customer":{"subscriberId":"008"}}}^|^ST008
+009^|^diagnostic^|^{"serviceTest":{"type":"diagnostic","customer":{"subscriberId":"009"}}}^|^ST009
+010^|^diagnostic^|^{"serviceTest":{"type":"diagnostic","customer":{"subscriberId":"010"}}}^|^ST010
