@@ -1,0 +1,11 @@
+url^|^methodType^|^responseCode^|^responseType^|^responseMessage^|^responseCode^|^configurationType^|^configurationAction^|^configurationId^|^configurationAdminStatus^|^configurationStartDate^|^configurationEndDate^|^configurationState
+/configuration^|^post^|^200^|^S^|^Configuration successful^|^CFG200^|^object^|^HGW_WIFI_ENABLE^|^CFG001^|^1^|^2023-05-15T09:30:00Z^|^2023-05-15T10:30:00Z^|^active
+/configuration^|^post^|^400^|^E^|^Invalid request parameters^|^ERR400^|^object^|^HGW_WIFI_DISABLE^|^CFG002^|^0^|^2023-05-16T14:45:00Z^|^2023-05-16T15:45:00Z^|^pending
+/configuration^|^post^|^401^|^E^|^Unauthorized access^|^ERR401^|^object^|^HGW_WIFI_SET_PASSWD^|^CFG003^|^1^|^2023-05-17T11:15:00Z^|^2023-05-17T12:15:00Z^|^completed
+/configuration^|^post^|^403^|^E^|^Forbidden request^|^ERR403^|^object^|^HGW_WIFI_CONFIGURATION^|^CFG004^|^1^|^2023-05-18T16:00:00Z^|^2023-05-18T17:00:00Z^|^failed
+/configuration^|^post^|^404^|^E^|^Resource not found^|^ERR404^|^object^|^GPON_ONT_RESET^|^CFG005^|^0^|^2023-05-19T08:30:00Z^|^2023-05-19T09:30:00Z^|^queued
+/configuration^|^post^|^429^|^E^|^Too many requests^|^ERR429^|^object^|^HGW_WIFI_ENABLE^|^CFG006^|^1^|^2023-05-20T13:45:00Z^|^2023-05-20T14:45:00Z^|^processing
+/configuration^|^post^|^500^|^E^|^Internal server error^|^ERR500^|^object^|^HGW_WIFI_DISABLE^|^CFG007^|^0^|^2023-05-21T10:00:00Z^|^2023-05-21T11:00:00Z^|^scheduled
+/configuration^|^post^|^503^|^E^|^Service unavailable^|^ERR503^|^object^|^HGW_WIFI_SET_PASSWD^|^CFG008^|^1^|^2023-05-22T15:30:00Z^|^2023-05-22T16:30:00Z^|^cancelled
+/configuration^|^post^|^504^|^E^|^Gateway timeout^|^ERR504^|^object^|^HGW_WIFI_CONFIGURATION^|^CFG009^|^1^|^2023-05-23T09:15:00Z^|^2023-05-23T10:15:00Z^|^expired
+/configuration^|^post^|^200^|^T^|^Configuration in progress^|^CFG201^|^object^|^GPON_ONT_RESET^|^CFG010^|^0^|^2023-05-24T12:00:00Z^|^2023-05-24T13:00:00Z^|^inProgress
