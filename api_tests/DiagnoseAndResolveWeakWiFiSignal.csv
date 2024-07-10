@@ -1,0 +1,11 @@
+url^|^methodType^|^subscriberId^|^type^|^frequencyBand^|^wifiIndex^|^SSID^|^passwd^|^broadcastSSID^|^wifiChannel^|^mode^|^startDate^|^endDate^|^state^|^diagnostic.code^|^diagnostic.errorCode^|^diagnostic.description^|^diagnostic.criticity
+/configuration^|^post^|^SVTAL002^|^HGW_WIFI_ENABLE^|^2.4GHz^|^^|^^|^^|^^|^^|^^|^2023-06-15T09:23:45Z^|^2023-06-15T09:24:12Z^|^FINISHED^|^OK^|^^|^^|^
+/configuration^|^post^|^SVTAL003^|^HGW_WIFI_DISABLE^|^5.0GHz^|^^|^^|^^|^^|^^|^^|^2023-06-15T10:45:30Z^|^2023-06-15T10:46:05Z^|^FINISHED^|^OK^|^^|^^|^
+/configuration^|^post^|^SVTAL004^|^HGW_WIFI_SET_PASSWD^|^^|^2^|^^|^NewPass123!^|^^|^^|^WPAand11i^|^2023-06-15T11:30:15Z^|^2023-06-15T11:30:45Z^|^FINISHED^|^OK^|^^|^^|^
+/configuration^|^post^|^SVTAL005^|^HGW_WIFI_CONFIGURATION^|^^|^1^|^MyNetwork^|^^|^1^|^6^|^11i^|^2023-06-15T13:15:20Z^|^2023-06-15T13:16:00Z^|^FINISHED^|^NOK^|^HGW_WIFI_01^|^Failed to update SSID^|^2
+/configuration^|^post^|^SVTAL006^|^GPON_ONT_RESET^|^^|^^|^^|^^|^^|^^|^^|^2023-06-15T14:45:10Z^|^2023-06-15T14:46:30Z^|^FINISHED^|^OK^|^^|^^|^
+/serviceTest^|^post^|^SVTAL007^|^diagnostic^|^^|^^|^^|^^|^^|^^|^^|^2023-06-15T16:20:05Z^|^2023-06-15T16:22:30Z^|^FINISHED^|^OK^|^^|^^|^
+/serviceTest^|^post^|^SVTAL008^|^diagnostic^|^^|^^|^^|^^|^^|^^|^^|^2023-06-15T17:55:40Z^|^2023-06-15T17:58:15Z^|^FINISHED^|^NOK^|^DIAG_01^|^ONT not responding^|^2
+/configuration^|^post^|^SVTAL009^|^HGW_WIFI_ENABLE^|^5.0GHz^|^^|^^|^^|^^|^^|^^|^2023-06-15T19:10:25Z^|^2023-06-15T19:11:00Z^|^REJECTED^|^^|^HGW_WIFI_02^|^Invalid frequency band^|^1
+/configuration^|^post^|^SVTAL010^|^HGW_WIFI_CONFIGURATION^|^^|^3^|^GuestNetwork^|^Guest2023!^|^0^|^11^|^Basic^|^2023-06-15T20:30:50Z^|^2023-06-15T20:31:25Z^|^FINISHED^|^OK^|^^|^^|^
+/serviceTest^|^post^|^SVTAL011^|^diagnostic^|^^|^^|^^|^^|^^|^^|^^|^2023-06-15T22:05:15Z^|^2023-06-15T22:07:45Z^|^INTERNAL_FAULT^|^NOK^|^DIAG_02^|^System error occurred^|^2
