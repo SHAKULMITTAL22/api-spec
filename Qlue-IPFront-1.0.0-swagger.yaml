@@ -347,25 +347,6 @@ paths:
         
 components:
   schemas:
-      properties:
-        sn:
-          type: string
-          example: 0904H210008
-        firmware:
-          type: string
-          example: 1.200.30
-        regStatus:
-          type: string
-          example: Registered
-        lastOnline:
-          type: string
-          format: date-time
-          example: '2023-11-29T09:12:33.001Z'
-        noCamera:
-          type: integer
-          example: 3
-        cameras:
-          $ref: '#/components/schemas/Cameras'  
     Cameras:
       type: array
       items:
