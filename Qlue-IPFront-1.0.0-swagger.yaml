@@ -347,15 +347,6 @@ paths:
         
 components:
   schemas:
-    DeviceStatus:
-      type: object
-      required:
-        - sn
-        - firmware
-        - regStatus
-        - lastOnline
-        - noCamera
-        - Cameras
       properties:
         sn:
           type: string
