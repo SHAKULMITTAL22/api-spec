@@ -1,0 +1,11 @@
+email^|^otp^|^client
+john.doe@example.com^|^123456^|^mobile
+jane.smith@example.com^|^^|^web
+invalid.email@^|^654321^|^desktop
+sarah.johnson@example.co.uk^|^abc123^|^api
+mike.brown@example.com^|^7890^|^
+lisa.davis@example.com^|^111111^|^mobile
+david.wilson@example.com^|^2468^|^web
+emily.taylor@example^|^^|^invalid
+chris.anderson@example.com^|^13579^|^desktop
+jessica.thomas@example.com^|^246810^|^api
