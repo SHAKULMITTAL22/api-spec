@@ -1,0 +1,11 @@
+email,otp,client
+johndoe@gmail.com,123456,Client1
+janedoe@gmail.com,654321,Client2
+,789123,Client3
+invalidEmail,321987,Client4
+bobsmith@gmail.com,,Client5
+alicejones@gmail.com,987654,Client6
+charliebrown@gmail.com,456789,Client7
+snoopy@gmail.com,112233,Client8
+woodstock@gmail.com,332211,Client9
+linus@gmail.com,778899,Client10
