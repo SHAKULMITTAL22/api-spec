@@ -1,0 +1,11 @@
+authorizationID,statusCode,url,urlApiSpecDetails.methodType,urlApiSpecDetails.parameters.id,urlApiSpecDetails.responses.200.description,urlApiSpecDetails.responses.200.headers.api-version.example,urlApiSpecDetails.responses.400.headers.api-version.example,urlApiSpecDetails.responses.401.headers.api-version.example,urlApiSpecDetails.security.type,urlApiSpecDetails.security.name
+b3f2f0cc-efbc-4c17-8cf6-92f6b2c33a95,200,/authorizations/b3f2f0cc-efbc-4c17-8cf6-92f6b2c33a95,delete,b3f2f0cc-efbc-4c17-8cf6-92f6b2c33a95,successful operation,1.0.0,1.0.0,1.0.0,apiKey,Token
+3b6c6f0d-1a9c-4f2e-a4d2-f9f6e8b33a96,200,/authorizations/3b6c6f0d-1a9c-4f2e-a4d2-f9f6e8b33a96,delete,3b6c6f0d-1a9c-4f2e-a4d2-f9f6e8b33a96,successful operation,1.0.0,1.0.0,1.0.0,apiKey,Token
+2b9d7f1e-2a7d-4e3e-b4e3-faf7f9b33a97,200,/authorizations/2b9d7f1e-2a7d-4e3e-b4e3-faf7f9b33a97,delete,2b9d7f1e-2a7d-4e3e-b4e3-faf7f9b33a97,successful operation,1.0.0,1.0.0,1.0.0,apiKey,Token
+1b8e8f2f-3a6e-5f4f-c5e4-gag8f0b33a98,200,/authorizations/1b8e8f2f-3a6e-5f4f-c5e4-gag8f0b33a98,delete,1b8e8f2f-3a6e-5f4f-c5e4-gag8f0b33a98,successful operation,1.0.0,1.0.0,1.0.0,apiKey,Token
+0b7g9g3g-4b5g-6g7g-d8g9-hah9f1b33a99,200,/authorizations/0b7g9g3g-4b5g-6g7g-d8g9-hah9f1b33a99,delete,0b7g9g3g-4b5g-6g7g-d8g9-hah9f1b33a99,successful operation,1.0.0,1.0.0,1.0.0,apiKey,Token
+a1c2d3e4-f5g6-h7i8-j9k0-lal2c3b33a10,200,/authorizations/a1c2d3e4-f5g6-h7i8-j9k0-lal2c3b33a10,delete,a1c2d3e4-f5g6-h7i8-j9k0-lal2c3b33a10,successful operation,1.0.0,1.0.0,1.0.0,apiKey,Token
+b2d3e4f5-g6h7-i8j9-k0l1-mam3d4b33a11,200,/authorizations/b2d3e4f5-g6h7-i8j9-k0l1-mam3d4b33a11,delete,b2d3e4f5-g6h7-i8j9-k0l1-mam3d4b33a11,successful operation,1.0.0,1.0.0,1.0.0,apiKey,Token
+c3e4f5g6-h7i8-j9k0-l1m2-nan4e5b33a12,200,/authorizations/c3e4f5g6-h7i8-j9k0-l1m2-nan4e5b33a12,delete,c3e4f5g6-h7i8-j9k0-l1m2-nan4e5b33a12,successful operation,1.0.0,1.0.0,1.0.0,apiKey,Token
+d4f5g6h7-i8j9-k0l1-m2n3-oao5f6b33a13,200,/authorizations/d4f5g6h7-i8j9-k0l1-m2n3-oao5f6b33a13,delete,d4f5g6h7-i8j9-k0l1-m2n3-oao5f6b33a13,successful operation,1.0.0,1.0.0,1.0.0,apiKey,Token
+e5f6g7h8-j9k0-l1m2-n3o4-pap6g7b33a14,200,/authorizations/e5f6g7h8-j9k0-l1m2-n3o4-pap6g7b33a14,delete,e5f6g7h8-j9k0-l1m2-n3o4-pap6g7b33a14,successful operation,1.0.0,1.0.0,1.0.0,apiKey,Token
