@@ -1,0 +1,13 @@
+appointmentReason,appointmentComments,appointmentId,statusCode,scenario
+"Agendamento para Instalação de Fibra","{\n  \"control\": {\n    \"type\": \"S\",\n    \"code\": 200,\n    \"message\": \"OK\"\n  }\n}","SA-562403",200,"successful operation"
+"Random Reason","{\n  \"control\": {\n    \"type\": \"E\",\n    \"code\": 400,\n    \"message\": \"Bad Request\"\n  }\n}","RandomID-12345",400,"Bad Request"
+"Random Reason","{\n  \"control\": {\n    \"type\": \"E\",\n    \"code\": 401,\n    \"message\": \"Unauthorized\"\n  }\n}","RandomID-23456",401,"Unauthorized"
+"Random Reason","{\n  \"control\": {\n    \"type\": \"E\",\n    \"code\": 403,\n    \"message\": \"Forbidden - Scope Not Permitted\"\n  }\n}","RandomID-34567",403,"Forbidden - Scope Not Permitted"
+"Random Reason","{\n  \"control\": {\n    \"type\": \"E\",\n    \"code\": 404,\n    \"message\": \"Not Found\"\n  }\n}","RandomID-45678",404,"Not Found"
+"Random Reason","{\n  \"control\": {\n    \"type\": \"E\",\n    \"code\": 406,\n    \"message\": \"Not Acceptable\"\n  }\n}","RandomID-56789",406,"Not Acceptable"
+"Random Reason","{\n  \"control\": {\n    \"type\": \"E\",\n    \"code\": 412,\n    \"message\": \"Precondition Failed\"\n  }\n}","RandomID-67890",412,"Precondition Failed"
+"Random Reason","{\n  \"control\": {\n    \"type\": \"E\",\n    \"code\": 423,\n    \"message\": \"Agendamento não pode ser alterado\"\n  }\n}","RandomID-78901",423,"Locked"
+"Random Reason","{\n  \"control\": {\n    \"type\": \"E\",\n    \"code\": 429,\n    \"message\": \"Too Many Requests - Exceeded Quota\"\n  }\n}","RandomID-89012",429,"Too Many Requests - Exceeded Quota"
+"Random Reason","{\n  \"control\": {\n    \"type\": \"T\",\n    \"code\": 500,\n    \"message\": \"Internal Server Error\"\n  }\n}","RandomID-90123",500,"Internal Server Error"
+"Random Reason","{\n  \"control\": {\n    \"type\": \"T\",\n    \"code\": 503,\n    \"message\": \"Service Unavailable\"\n  }\n}","RandomID-01234",503,"Service Unavailable"
+"Random Reason","{\n  \"control\": {\n    \"type\": \"T\",\n    \"code\": 504,\n    \"message\": \"Gateway Timeout\"\n  }\n}","RandomID-123456",504,"Gateway Timeout"
