@@ -1,0 +1,13 @@
+appointmentId,id,reason,statusCode,scenario
+SA-562403,bff13821-73c3-42cc-9327-b05c7df5a67f,"Cliente Diamond",200,successful operation
+482734287,2d2a9c2d-2f23-4d8e-92a7-2c0ecf7a0e3b,"Invalid reason",400,Bad Request
+238472394,3d3b9c3d-3f33-4f9e-93b7-3d0edf8b0f4b,"Unauthorized access",401,Unauthorized
+573829573,4e4c9d4e-4g44-5g9f-94c8-4e1fdf9c1g5c,"Scope not allowed",403,Forbidden - Scope Not Permitted
+182739182,5f5d9e5f-5h55-6h0g-95d9-5f2gef0d2h6d,"Slot identifier expired",404,Not Found
+928374928,6g6e9f6g-6i66-7i1h-96e0-6g3hfg1e3i7e,"Non-acceptable terms",406,Not Acceptable
+374829374,7h7f9g7h-7j77-8j2i-97f1-7h4ifg2f4j8f,"Failed conditions",412,Precondition Failed
+182739182,8i8g9h8i-8k88-9k3j-98g2-8i5jgh3g5k9g,"Change locked",423,Locked
+928374928,9j9h9i9j-9l99-0l4k-99h3-9j6khg4h6l0l,"Requests exceeded",429,Too Many Requests - Exceeded Quota
+374829374,0k0i0j0k-0m00-1m5l-00i4-0k7lig5i7m1m,"Server error",500,Internal Server Error
+182739182,1l1j1k1l-1n11-2n6m-11j5-1l8mjh6j8n2n,"Service down",503,Service Unavailable
+928374928,2m2k2l2m-2o22-3o7n-22k6-2m9nki7k9o3o,"Timeout error",504,Gateway Timeout
