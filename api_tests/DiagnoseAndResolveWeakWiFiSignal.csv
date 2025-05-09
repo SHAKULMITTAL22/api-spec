@@ -1,0 +1,11 @@
+url^|^methodType^|^responseCode^|^responseType^|^responseMessage^|^responseCode^|^requestBodyType^|^requestBodyAction^|^requestBodyId^|^requestBodyAdminStatus^|^requestBodyStartDate^|^requestBodyEndDate^|^requestBodyState^|^requestBodySubscriberId^|^notificationServiceTestId^|^notificationServiceTestType^|^notificationServiceTestStartDate^|^notificationServiceTestEndDate^|^notificationServiceTestState
+/configuration^|^post^|^200^|^S^|^Configuration successful^|^CFG200^|^HGW_WIFI_ENABLE^|^WF123^|^1^|^2023-05-10T14:30:00Z^|^2023-05-10T15:30:00Z^|^COMPLETED^|^^^^
+/listener/configurationResultEvent^|^post^|^204^|^^^^^^^^^^^^
+/serviceTest^|^post^|^200^|^S^|^Service test initiated^|^ST200^|^diagnostic^|^^^^SUBR98765^|^^^
+/listener/serviceTestResultEvent^|^post^|^204^|^^^^^^^^^^^^SUBR98765^|^TEST456^|^diagnostic^|^2023-05-10T16:45:00Z^|^2023-05-10T17:15:00Z^|^FINISHED
+/configuration^|^post^|^400^|^E^|^Invalid configuration parameters^|^CFG400^|^HGW_WIFI_DISABLE^|^WF456^|^0^|^2023-05-11T09:00:00Z^|^2023-05-11T10:00:00Z^|^FAILED^|^^^^
+/serviceTest^|^post^|^401^|^E^|^Unauthorized access^|^ST401^|^diagnostic^|^^^^SUBR12345^|^^^
+/configuration^|^post^|^200^|^S^|^Configuration applied^|^CFG200^|^HGW_WIFI_SET_PASSWD^|^WF789^|^1^|^2023-05-12T11:30:00Z^|^2023-05-12T12:30:00Z^|^COMPLETED^|^^^^
+/listener/serviceTestResultEvent^|^post^|^204^|^^^^^^^^^^^^SUBR54321^|^TEST789^|^diagnostic^|^2023-05-12T13:00:00Z^|^2023-05-12T13:30:00Z^|^IN_PROGRESS
+/configuration^|^post^|^500^|^E^|^Internal server error^|^CFG500^|^GPON_ONT_RESET^|^ONT101^|^1^|^2023-05-13T08:45:00Z^|^2023-05-13T09:45:00Z^|^FAILED^|^^^^
+/serviceTest^|^post^|^200^|^S^|^Service test completed^|^ST200^|^diagnostic^|^^^^SUBR67890^|^^^
