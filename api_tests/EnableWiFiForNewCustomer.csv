@@ -1,0 +1,11 @@
+subscriberID^|^configuration.action.type^|^configuration.id^|^configuration.adminStatus
+1^|^HGW_WIFI_ENABLE^|^config1^|^1
+2^|^HGW_WIFI_DISABLE^|^config2^|^0
+3^|^HGW_WIFI_SET_PASSWD^|^config3^|^1
+4^|^HGW_WIFI_CONFIGURATION^|^config4^|^0
+5^|^GPON_ONT_RESET^|^config5^|^1
+6^|^HGW_WIFI_ENABLE^|^config6^|^0
+7^|^HGW_WIFI_DISABLE^|^config7^|^1
+8^|^HGW_WIFI_SET_PASSWD^|^config8^|^0
+9^|^HGW_WIFI_CONFIGURATION^|^config9^|^1
+10^|^GPON_ONT_RESET^|^config10^|^0
