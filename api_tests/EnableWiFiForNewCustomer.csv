@@ -1,0 +1,11 @@
+url^|^methodType^|^subscriberId^|^type^|^state^|^startDate^|^endDate^|^diagnosticCode^|^hintOperationType
+/configuration^|^post^|^SVTAL002^|^HGW_WIFI_ENABLE^|^FINISHED^|^2023-06-15T09:23:45-03^|^2023-06-15T09:24:12-03^|^OK^|^Instruir o Cliente
+/serviceTest^|^post^|^SVTAL003^|^diagnostic^|^IN_PROGRESS^|^2023-06-15T10:45:32-03^|^^|^^|^
+/listener/serviceTestResultEvent^|^post^|^SVTAL004^|^diagnostic^|^FINISHED^|^2023-06-15T11:12:18-03^|^2023-06-15T11:14:56-03^|^NOK^|^Abrir Chamado Tecnico
+/configuration^|^post^|^SVTAL005^|^HGW_WIFI_DISABLE^|^FINISHED^|^2023-06-15T13:05:22-03^|^2023-06-15T13:05:48-03^|^OK^|^Instruir o Cliente
+/serviceTest^|^post^|^SVTAL006^|^diagnostic^|^NOT_FOUND^|^2023-06-15T14:30:11-03^|^2023-06-15T14:30:15-03^|^^|^
+/listener/serviceTestResultEvent^|^post^|^SVTAL007^|^diagnostic^|^FINISHED^|^2023-06-15T15:47:39-03^|^2023-06-15T15:50:22-03^|^OK^|^Instruir o Cliente
+/configuration^|^post^|^SVTAL008^|^HGW_WIFI_SET_PASSWD^|^FINISHED^|^2023-06-15T16:18:54-03^|^2023-06-15T16:19:30-03^|^OK^|^Instruir o Cliente
+/serviceTest^|^post^|^SVTAL009^|^diagnostic^|^INTERNAL_FAULT^|^2023-06-15T17:22:07-03^|^2023-06-15T17:22:45-03^|^^|^
+/listener/serviceTestResultEvent^|^post^|^SVTAL010^|^diagnostic^|^FINISHED^|^2023-06-15T18:39:16-03^|^2023-06-15T18:42:03-03^|^NOK^|^Abrir Chamado Tecnico
+/configuration^|^post^|^SVTAL011^|^HGW_WIFI_CONFIGURATION^|^FINISHED^|^2023-06-15T19:55:33-03^|^2023-06-15T19:56:12-03^|^OK^|^Instruir o Cliente

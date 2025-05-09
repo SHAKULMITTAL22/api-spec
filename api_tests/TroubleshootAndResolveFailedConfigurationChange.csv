@@ -1,0 +1,11 @@
+url^|^methodType^|^path^|^responseCode^|^responseType^|^responseMessage^|^subscriberId^|^serviceTestId^|^serviceTestType^|^serviceTestState^|^diagnosticCode
+/configuration^|^post^|^/configuration^|^200^|^S^|^OK^|^SVTAL002^|^78c3ad32-6546-427b-9770-5da5f917277f^|^HGW_WIFI_ENABLE^|^FINISHED^|^OK
+/configuration^|^post^|^/configuration^|^400^|^E^|^Bad Request^|^SVTAL003^|^9b2e7d1f-3a8c-4e65-b9c2-1d4f6e8a3b5c^|^HGW_WIFI_DISABLE^|^REJECTED^|^NOK
+/serviceTest^|^post^|^/serviceTest^|^200^|^S^|^OK^|^SVTAL004^|^22119329-13de-41da-9255-eb3e1606b449^|^diagnostic^|^IN_PROGRESS^|^
+/serviceTest^|^post^|^/serviceTest^|^406^|^E^|^Not Acceptable (Identificador da instalação [subscriberId] inativo ou inexistente)^|^SVTAL005^|^^|^^|^^|^
+/listener/serviceTestResultEvent^|^post^|^/listener/serviceTestResultEvent^|^204^|^^|^No Content^|^SVTAL006^|^a84141b6-67c0-4103-b01b-f77e00e43b4e^|^diagnostic^|^FINISHED^|^NOK
+/configuration^|^post^|^/configuration^|^401^|^E^|^Unauthorized^|^SVTAL007^|^c5f9e3b2-1d7a-4b8e-9c6f-2e3d4f5a6b7c^|^HGW_WIFI_SET_PASSWD^|^INTERNAL_FAULT^|^
+/serviceTest^|^post^|^/serviceTest^|^429^|^E^|^Too Many Requests - Exceeded Quota^|^SVTAL008^|^^|^^|^^|^
+/listener/serviceTestResultEvent^|^post^|^/listener/serviceTestResultEvent^|^400^|^^|^BadRequest^|^SVTAL009^|^f1e2d3c4-b5a6-7890-1234-567890abcdef^|^diagnostic^|^NOT_FOUND^|^
+/configuration^|^post^|^/configuration^|^503^|^T^|^Service Unavailable^|^SVTAL010^|^0a1b2c3d-4e5f-6789-0123-456789abcdef^|^HGW_WIFI_CONFIGURATION^|^INVENTORY_FAULT^|^
+/serviceTest^|^post^|^/serviceTest^|^500^|^T^|^Internal Server Error^|^SVTAL011^|^^|^^|^^|^
