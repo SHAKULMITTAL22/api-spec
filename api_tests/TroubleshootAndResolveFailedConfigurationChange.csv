@@ -1,0 +1,11 @@
+subscriberId^|^type^|^frequencyBand^|^wifiIndex^|^passwd^|^mode
+1^|^Residential^|^2.4GHz^|^1^|^abc123^|^AP
+2^|^Commercial^|^5GHz^|^2^|^def456^|^Repeater
+3^|^Residential^|^2.4GHz^|^3^|^ghi789^|^AP
+4^|^Commercial^|^5GHz^|^4^|^jkl012^|^Repeater
+5^|^Residential^|^2.4GHz^|^5^|^mno345^|^AP
+6^|^Commercial^|^5GHz^|^6^|^pqr678^|^Repeater
+7^|^Residential^|^2.4GHz^|^7^|^stu901^|^AP
+8^|^Commercial^|^5GHz^|^8^|^vwx234^|^Repeater
+9^|^Residential^|^2.4GHz^|^9^|^yzb567^|^AP
+10^|^Commercial^|^5GHz^|^10^|^cde890^|^Repeater
