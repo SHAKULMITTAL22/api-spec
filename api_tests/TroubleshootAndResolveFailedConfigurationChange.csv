@@ -1,0 +1,11 @@
+url^|^methodType^|^responseCode^|^responseType^|^responseMessage^|^responseCode^|^requestBodyActionType^|^requestBodyId^|^requestBodyAdminStatus^|^requestBodyStartDate^|^requestBodyEndDate^|^requestBodyState
+/configuration^|^post^|^200^|^S^|^Configuration successful^|^CFG200^|^HGW_WIFI_ENABLE^|^CFG001^|^1^|^2023-05-15T10:30:00Z^|^2023-05-15T11:30:00Z^|^COMPLETED
+/configuration^|^post^|^400^|^E^|^Invalid request parameters^|^ERR400^|^HGW_WIFI_DISABLE^|^CFG002^|^0^|^2023-05-16T09:15:00Z^|^2023-05-16T10:15:00Z^|^FAILED
+/serviceTest^|^post^|^200^|^S^|^Service test initiated^|^TST200^|^diagnostic^|^TST001^|^^|^2023-05-17T14:45:00Z^|^2023-05-17T15:45:00Z^|^IN_PROGRESS
+/listener/serviceTestResultEvent^|^post^|^204^|^^|^No Content^|^NTF204^|^diagnostic^|^NTF001^|^^|^2023-05-18T11:00:00Z^|^2023-05-18T12:00:00Z^|^FINISHED
+/configuration^|^post^|^401^|^E^|^Unauthorized access^|^ERR401^|^HGW_WIFI_SET_PASSWD^|^CFG003^|^1^|^2023-05-19T16:30:00Z^|^2023-05-19T17:30:00Z^|^REJECTED
+/serviceTest^|^post^|^500^|^E^|^Internal server error^|^ERR500^|^diagnostic^|^TST002^|^^|^2023-05-20T08:00:00Z^|^2023-05-20T09:00:00Z^|^INTERNAL_FAULT
+/configuration^|^post^|^200^|^S^|^Configuration updated^|^CFG201^|^HGW_WIFI_CONFIGURATION^|^CFG004^|^1^|^2023-05-21T13:45:00Z^|^2023-05-21T14:45:00Z^|^COMPLETED
+/listener/serviceTestResultEvent^|^post^|^400^|^^|^Bad Request^|^ERR400^|^diagnostic^|^NTF002^|^^|^2023-05-22T10:30:00Z^|^2023-05-22T11:30:00Z^|^NOT_FOUND
+/configuration^|^post^|^429^|^E^|^Too many requests^|^ERR429^|^GPON_ONT_RESET^|^CFG005^|^0^|^2023-05-23T15:15:00Z^|^2023-05-23T16:15:00Z^|^FAILED
+/serviceTest^|^post^|^403^|^E^|^Forbidden access^|^ERR403^|^diagnostic^|^TST003^|^^|^2023-05-24T09:45:00Z^|^2023-05-24T10:45:00Z^|^REJECTED
