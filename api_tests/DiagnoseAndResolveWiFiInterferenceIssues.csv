@@ -1,0 +1,11 @@
+subscriberId^|^type^|^frequencyBand^|^wifiIndex^|^passwd^|^mode
+1^|^residential^|^2.4GHz^|^1^|^abc123^|^active
+2^|^commercial^|^5GHz^|^2^|^def456^|^inactive
+3^|^residential^|^2.4GHz^|^3^|^ghi789^|^active
+4^|^commercial^|^5GHz^|^4^|^jkl012^|^inactive
+5^|^residential^|^2.4GHz^|^5^|^mno345^|^active
+6^|^commercial^|^5GHz^|^6^|^pqr678^|^inactive
+7^|^residential^|^2.4GHz^|^7^|^stu901^|^active
+8^|^commercial^|^5GHz^|^8^|^vwx234^|^inactive
+9^|^residential^|^2.4GHz^|^9^|^yz1234^|^active
+10^|^commercial^|^5GHz^|^10^|^abc567^|^inactive
