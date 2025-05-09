@@ -1,0 +1,11 @@
+subscriberId^|^testId^|^action^|^confirmationAction
+ID001^|^T001^|^HGW_WIFI_ENABLE^|^Confirmed
+ID002^|^T002^|^HGW_WIFI_DISABLE^|^Confirmed
+ID003^|^T003^|^HGW_WIFI_SET_PASSWD^|^Confirmed
+ID004^|^T004^|^HGW_WIFI_CONFIGURATION^|^Confirmed
+ID005^|^T005^|^GPON_ONT_RESET^|^Confirmed
+ID006^|^T006^|^HGW_WIFI_ENABLE^|^Confirmed
+ID007^|^T007^|^HGW_WIFI_DISABLE^|^Confirmed
+ID008^|^T008^|^HGW_WIFI_SET_PASSWD^|^Confirmed
+ID009^|^T009^|^HGW_WIFI_CONFIGURATION^|^Confirmed
+ID010^|^T010^|^GPON_ONT_RESET^|^Confirmed

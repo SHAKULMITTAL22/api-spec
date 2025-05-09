@@ -1,0 +1,11 @@
+subscriberID^|^action^|^deviceType
+1^|^login^|^smartphone
+2^|^logout^|^tablet
+3^|^purchase^|^desktop
+4^|^login^|^smartphone
+5^|^logout^|^tablet
+6^|^purchase^|^desktop
+7^|^login^|^smartphone
+8^|^logout^|^tablet
+9^|^purchase^|^desktop
+10^|^login^|^smartphone

@@ -1,0 +1,11 @@
+subscriberId^|^service^|^action
+1^|^Internet^|^HGW_WIFI_ENABLE
+2^|^Internet^|^HGW_WIFI_DISABLE
+3^|^Internet^|^HGW_WIFI_SET_PASSWD
+4^|^Internet^|^HGW_WIFI_CONFIGURATION
+5^|^Internet^|^GPON_ONT_RESET
+6^|^Internet^|^HGW_WIFI_ENABLE
+7^|^Internet^|^HGW_WIFI_DISABLE
+8^|^Internet^|^HGW_WIFI_SET_PASSWD
+9^|^Internet^|^HGW_WIFI_CONFIGURATION
+10^|^Internet^|^GPON_ONT_RESET

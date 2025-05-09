@@ -1,0 +1,11 @@
+subscriberID^|^requestType^|^testType
+001^|^configuration^|^HGW_WIFI_ENABLE
+002^|^configuration^|^HGW_WIFI_DISABLE
+003^|^configuration^|^HGW_WIFI_SET_PASSWD
+004^|^configuration^|^HGW_WIFI_CONFIGURATION
+005^|^configuration^|^GPON_ONT_RESET
+006^|^serviceTest^|^diagnostic
+007^|^configuration^|^HGW_WIFI_ENABLE
+008^|^configuration^|^HGW_WIFI_DISABLE
+009^|^configuration^|^HGW_WIFI_SET_PASSWD
+010^|^configuration^|^GPON_ONT_RESET
