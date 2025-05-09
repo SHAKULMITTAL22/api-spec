@@ -1,0 +1,11 @@
+url^|^urlApiSpecDetails.path^|^urlApiSpecDetails.methodType^|^urlApiSpecDetails.responses.200.control.type^|^urlApiSpecDetails.responses.200.control.message^|^urlApiSpecDetails.responses.200.control.code^|^urlApiSpecDetails.requestBody.configuration.action.type^|^urlApiSpecDetails.requestBody.configuration.adminStatus^|^urlApiSpecDetails.requestBody.configuration.startDate^|^urlApiSpecDetails.requestBody.configuration.endDate^|^urlApiSpecDetails.requestBody.configuration.state
+/configuration^|^/configuration^|^post^|^S^|^Configuration successful^|^CFG001^|^HGW_WIFI_ENABLE^|^1^|^2023-05-15T09:30:00Z^|^2023-05-15T10:30:00Z^|^active
+/configuration^|^/configuration^|^post^|^T^|^Configuration in progress^|^CFG002^|^HGW_WIFI_DISABLE^|^0^|^2023-05-16T14:45:00Z^|^2023-05-16T15:45:00Z^|^pending
+/configuration^|^/configuration^|^post^|^E^|^Configuration failed^|^CFG003^|^HGW_WIFI_SET_PASSWD^|^1^|^2023-05-17T11:15:00Z^|^2023-05-17T12:15:00Z^|^failed
+/configuration^|^/configuration^|^post^|^S^|^Configuration completed^|^CFG004^|^HGW_WIFI_CONFIGURATION^|^1^|^2023-05-18T08:00:00Z^|^2023-05-18T09:00:00Z^|^completed
+/configuration^|^/configuration^|^post^|^T^|^Configuration processing^|^CFG005^|^GPON_ONT_RESET^|^0^|^2023-05-19T16:30:00Z^|^2023-05-19T17:30:00Z^|^processing
+/listener/configurationResultEvent^|^/listener/configurationResultEvent^|^post^|^S^|^Event received^|^EVT001^|^HGW_WIFI_ENABLE^|^1^|^2023-05-20T10:00:00Z^|^2023-05-20T11:00:00Z^|^received
+/listener/configurationResultEvent^|^/listener/configurationResultEvent^|^post^|^T^|^Event processing^|^EVT002^|^HGW_WIFI_DISABLE^|^0^|^2023-05-21T13:45:00Z^|^2023-05-21T14:45:00Z^|^processing
+/listener/configurationResultEvent^|^/listener/configurationResultEvent^|^post^|^E^|^Event failed^|^EVT003^|^HGW_WIFI_SET_PASSWD^|^1^|^2023-05-22T09:30:00Z^|^2023-05-22T10:30:00Z^|^failed
+/listener/configurationResultEvent^|^/listener/configurationResultEvent^|^post^|^S^|^Event completed^|^EVT004^|^HGW_WIFI_CONFIGURATION^|^1^|^2023-05-23T15:15:00Z^|^2023-05-23T16:15:00Z^|^completed
+/listener/configurationResultEvent^|^/listener/configurationResultEvent^|^post^|^T^|^Event in progress^|^EVT005^|^GPON_ONT_RESET^|^0^|^2023-05-24T11:00:00Z^|^2023-05-24T12:00:00Z^|^in_progress

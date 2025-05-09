@@ -1,0 +1,11 @@
+url^|^urlApiSpecDetails.path^|^urlApiSpecDetails.methodType^|^urlApiSpecDetails.responses.200.control.type^|^urlApiSpecDetails.responses.200.control.message^|^urlApiSpecDetails.responses.200.control.code^|^urlApiSpecDetails.requestBody.configuration.action.type^|^urlApiSpecDetails.requestBody.configuration.adminStatus^|^urlApiSpecDetails.requestBody.configuration.startDate^|^urlApiSpecDetails.requestBody.configuration.endDate^|^urlApiSpecDetails.requestBody.configuration.state
+/configuration^|^/configuration^|^post^|^S^|^Configuration successful^|^CFG001^|^HGW_WIFI_ENABLE^|^1^|^2023-05-15T10:30:00Z^|^2023-05-15T11:30:00Z^|^COMPLETED
+/configuration^|^/configuration^|^post^|^T^|^Configuration in progress^|^CFG002^|^HGW_WIFI_DISABLE^|^0^|^2023-05-16T14:45:00Z^|^2023-05-16T15:45:00Z^|^IN_PROGRESS
+/configuration^|^/configuration^|^post^|^E^|^Configuration failed^|^CFG003^|^HGW_WIFI_SET_PASSWD^|^1^|^2023-05-17T09:15:00Z^|^2023-05-17T10:15:00Z^|^FAILED
+/listener/configurationResultEvent^|^/listener/configurationResultEvent^|^post^|^S^|^Event received^|^EVT001^|^HGW_WIFI_CONFIGURATION^|^1^|^2023-05-18T11:00:00Z^|^2023-05-18T12:00:00Z^|^RECEIVED
+/serviceTest^|^/serviceTest^|^post^|^S^|^Service test initiated^|^SVC001^|^GPON_ONT_RESET^|^1^|^2023-05-19T13:30:00Z^|^2023-05-19T14:30:00Z^|^INITIATED
+/serviceTest^|^/serviceTest^|^post^|^T^|^Service test running^|^SVC002^|^HGW_WIFI_ENABLE^|^1^|^2023-05-20T16:00:00Z^|^2023-05-20T17:00:00Z^|^RUNNING
+/listener/serviceTestResultEvent^|^/listener/serviceTestResultEvent^|^post^|^S^|^Test result received^|^RES001^|^HGW_WIFI_DISABLE^|^0^|^2023-05-21T08:45:00Z^|^2023-05-21T09:45:00Z^|^COMPLETED
+/configuration^|^/configuration^|^post^|^S^|^Configuration updated^|^CFG004^|^HGW_WIFI_SET_PASSWD^|^1^|^2023-05-22T12:15:00Z^|^2023-05-22T13:15:00Z^|^UPDATED
+/serviceTest^|^/serviceTest^|^post^|^E^|^Service test failed^|^SVC003^|^GPON_ONT_RESET^|^1^|^2023-05-23T15:30:00Z^|^2023-05-23T16:30:00Z^|^FAILED
+/listener/configurationResultEvent^|^/listener/configurationResultEvent^|^post^|^S^|^Configuration result processed^|^EVT002^|^HGW_WIFI_CONFIGURATION^|^1^|^2023-05-24T10:00:00Z^|^2023-05-24T11:00:00Z^|^PROCESSED
